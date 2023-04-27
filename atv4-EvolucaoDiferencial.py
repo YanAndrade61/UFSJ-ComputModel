@@ -110,5 +110,5 @@ if __name__ == "__main__":
     ax.set(xlabel='time (it)', ylabel='error', title='Evolução do erro')
     ax.plot(range(len(progress_err)), progress_err)
     ax.grid()
-    fig.savefig('test.svg', format='svg')
+    fig.savefig('atv4-erro.png', format='png')
     plt.show()
